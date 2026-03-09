@@ -3,6 +3,11 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
+    
+    "runArgs": [
+        "--name", "my-c-project-container"
+    ],
+
     "customizations": {
         "vscode": {
             "extensions": [
